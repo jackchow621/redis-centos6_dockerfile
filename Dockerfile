@@ -17,6 +17,7 @@ RUN yum -y update && yum -y install epel-release && yum -y install redis && \
 # 设置环境变量
 ENV TZ Asia/Shanghai
 
+#暴露端口
 EXPOSE 6379
 
 #启动
